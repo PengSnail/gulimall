@@ -12,7 +12,7 @@ import lombok.Data;
  * 
  * @author PengG
  * @email zhipeng620@gmail.com
- * @date 2020-12-29 23:01:24
+ * @date 2020-12-29 23:52:06
  */
 @Data
 @TableName("pms_attr")
