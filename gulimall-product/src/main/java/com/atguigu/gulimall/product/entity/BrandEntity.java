@@ -6,6 +6,7 @@ import com.baomidou.mybatisplus.annotation.TableName;
 import java.io.Serializable;
 import java.util.Date;
 import lombok.Data;
+import org.hibernate.validator.constraints.URL;
 
 /**
  * 品牌
@@ -31,6 +32,7 @@ public class BrandEntity implements Serializable {
 	/**
 	 * 品牌logo地址
 	 */
+	@URL(message = "logo必须是一个合法的url地址")
 	private String logo;
 	/**
 	 * 介绍
